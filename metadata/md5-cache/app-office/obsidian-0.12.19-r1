@@ -1,0 +1,14 @@
+BDEPEND=sys-fs/fuse x11-themes/hicolor-icon-theme
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=x11-themes/hicolor-icon-theme
+DESCRIPTION=Obsidian is a powerful knowledge base that uses Markdown files
+EAPI=7
+HOMEPAGE=https://obsidian.md
+INHERIT=desktop xdg-utils
+KEYWORDS=~amd64 ~x86
+LICENSE=Obsidian-EULA
+RDEPEND=x11-themes/hicolor-icon-theme
+SLOT=0
+SRC_URI=https://github.com/obsidianmd/obsidian-releases/releases/download/v0.12.19/Obsidian-0.12.19.AppImage -> obsidian-0.12.19.AppImage
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_md5_=952660a576ef1bc1e5873a17d0fa7b9b

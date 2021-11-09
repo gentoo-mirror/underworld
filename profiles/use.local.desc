@@ -1,0 +1,11 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/gentoo-scripts:eclt - Enable eclt command
+app-misc/gentoo-scripts:esync - Enable esync command
+app-misc/gentoo-scripts:eupd - Enable eupd command
+app-misc/gentoo-scripts:qtop - Enable qtop command
+app-misc/gentoo-scripts:rcms - Enable rcms command
+dev-util/pvs-studio:bash-completion - Add bash completions
+www-client/yandex-browser-beta:ffmpeg-codecs - Add support for video and audio in the HTML5 format
