@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/gentoo-scripts:auto-sudo - Run all commands with sudo automatically
 app-misc/gentoo-scripts:eclt - Enable eclt command
 app-misc/gentoo-scripts:esync - Enable esync command
 app-misc/gentoo-scripts:eupd - Enable eupd command
