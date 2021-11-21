@@ -1,4 +1,4 @@
-app-misc/gentoo-scripts 1.3.2: Some useful scripts for gentoo
+app-misc/gentoo-scripts 1.4: Some useful scripts for gentoo
 app-office/obsidian 0.12.19-r1: Obsidian is a powerful knowledge base that uses Markdown files
 dev-util/pvs-studio 7.15.53844.171: Static Code Analyzer for C, C++
 media-sound/pulseaudio-equalizer-ladspa 3.0.2-r3: A 15-band equalizer for PulseAudio
