@@ -4,6 +4,7 @@
 
 app-misc/gentoo-scripts:auto-sudo - Run all commands with sudo automatically
 app-misc/gentoo-scripts:eclt - Enable eclt command
+app-misc/gentoo-scripts:enewyear - Enable enewyear command
 app-misc/gentoo-scripts:esync - Enable esync command
 app-misc/gentoo-scripts:eupd - Enable eupd command
 app-misc/gentoo-scripts:qtop - Enable qtop command
