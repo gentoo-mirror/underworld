@@ -3,4 +3,4 @@ app-office/obsidian 0.13.14: Obsidian is a powerful knowledge base that uses Mar
 dev-java/openjfx-jmods 17.0.1: Java OpenJFX client application platform
 dev-util/pvs-studio 7.16.55312.179: Static Code Analyzer for C, C++
 media-sound/pulseaudio-equalizer-ladspa 3.0.2-r3: A 15-band equalizer for PulseAudio
-www-client/yandex-browser-beta 21.11.3.954_rc1: The web browser from Yandex
+www-client/yandex-browser-beta 22.1.3.856_rc1: The web browser from Yandex
