@@ -12,4 +12,4 @@ RDEPEND=dev-libs/glib:2 dev-libs/libgudev dev-libs/libgusb dev-libs/nss virtual/
 SLOT=2
 SRC_URI=https://github.com/Infinytum/libfprint/archive/refs/heads/unstable.tar.gz -> libfprint-9999.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	d3d7da5aff94a677154819e0cb95ee36	meson	9f3e84959ae1d60e19bc91f212774dcc	udev	2d229ad4bfa09058e0184b1ca900db32
-_md5_=aa6bee7a83dcabb431dd4d7d6ea87e7a
+_md5_=b813841f950f7e728c719ca48b9433e5
