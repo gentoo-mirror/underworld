@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
+DESCRIPTION=Some useful scripts for gentoo
+EAPI=8
+HOMEPAGE=https://github.com/DakEnviy/gentoo-scripts
+IUSE=+qtop +esync +eclt +eupd +rcms +enewyear +qorph auto-sudo
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
+SLOT=0
+SRC_URI=https://github.com/DakEnviy/gentoo-scripts/archive/refs/tags/v1.7.tar.gz
+_md5_=aec9ef32cd879e55ef87a34832811b40
