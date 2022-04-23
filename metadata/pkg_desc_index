@@ -1,4 +1,4 @@
-app-misc/gentoo-scripts 1.7.1: Some useful scripts for gentoo
+app-misc/gentoo-scripts 1.7.2: Some useful scripts for gentoo
 app-office/obsidian 0.14.2: Obsidian is a powerful knowledge base that uses Markdown files
 dev-java/openjfx-jmods 17.0.1: Java OpenJFX client application platform
 dev-util/pvs-studio 7.18.59210.195: Static Code Analyzer for C, C++
