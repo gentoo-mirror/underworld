@@ -6,4 +6,4 @@ media-fonts/noto-emoji-apple 15.4: Google Noto Emoji Fonts replaced with Apple b
 media-sound/pulseaudio-equalizer-ladspa 3.0.2-r3: A 15-band equalizer for PulseAudio
 net-misc/sshp 1.1: A wrapper for ssh for simple access via password
 sys-auth/libfprint 9999: Library to add support for consumer fingerprint readers
-www-client/yandex-browser-beta 22.3.1.899_rc1: The web browser from Yandex
+www-client/yandex-browser-beta 22.3.3.886_rc1: The web browser from Yandex
