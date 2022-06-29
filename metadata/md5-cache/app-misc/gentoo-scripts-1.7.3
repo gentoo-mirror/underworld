@@ -1,5 +1,5 @@
 DEFINED_PHASES=install prepare setup
-DEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
+DEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
 DESCRIPTION=Some useful scripts for gentoo
 EAPI=8
 HOMEPAGE=https://github.com/DakEnviy/gentoo-scripts
@@ -7,9 +7,9 @@ INHERIT=python-single-r1
 IUSE=+qtop +esync +eclt +eupd +rcms +enewyear +qorph auto-sudo +python_single_target_python3_9
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
+RDEPEND=qtop? ( app-portage/portage-utils ) esync? ( sys-apps/portage ) eclt? ( sys-apps/portage app-portage/portage-utils ) eupd? ( sys-apps/portage ) rcms? ( sys-apps/openrc ) enewyear? ( sys-apps/portage ) qorph? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) app-portage/gentoolkit ) auto-sudo? ( app-admin/sudo )
 REQUIRED_USE=qorph? ( ^^ ( python_single_target_python3_9 ) )
 SLOT=0
 SRC_URI=https://github.com/DakEnviy/gentoo-scripts/archive/refs/tags/v1.7.3.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
 _md5_=2869068fecdef03c90eab6f196022ae0
