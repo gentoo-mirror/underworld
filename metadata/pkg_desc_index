@@ -2,7 +2,7 @@ app-misc/gentoo-scripts 1.7.3: Some useful scripts for gentoo
 app-office/obsidian 0.14.2: Obsidian is a powerful knowledge base that uses Markdown files
 dev-java/openjfx-jmods 17.0.1: Java OpenJFX client application platform
 dev-util/pvs-studio 7.19.61166.216: Static Code Analyzer for C, C++
-games-misc/jumoreski 0.0.1_pre26072022_p1620 9999: Bring colorful and funny Jumoreski into your workspace!
+games-misc/jumoreski 0.0.1_pre10082022_p1657 9999: Bring colorful and funny Jumoreski into your workspace!
 media-fonts/noto-emoji-apple 15.4: Google Noto Emoji Fonts replaced with Apple branded emoji
 media-sound/pulseaudio-equalizer-ladspa 3.0.2-r3: A 15-band equalizer for PulseAudio
 net-misc/sshp 1.4: A wrapper for ssh for simple access via password
