@@ -4,7 +4,7 @@ dev-java/openjfx-jmods 17.0.1: Java OpenJFX client application platform
 dev-util/pvs-studio 7.21.64848.262: Static Code Analyzer for C, C++
 games-misc/jumoreski 0.0.1_pre10082022_p1657 9999: Bring colorful and funny Jumoreski into your workspace!
 media-fonts/noto-emoji-apple 15.4: Google Noto Emoji Fonts replaced with Apple branded emoji
-media-sound/pulseaudio-equalizer-ladspa 3.0.2-r4: A 15-band equalizer for PulseAudio
+media-sound/pulseaudio-equalizer-ladspa 3.0.2-r5: A 15-band equalizer for PulseAudio
 net-misc/sshp 1.4-r1: A wrapper for ssh for simple access via password
 sys-auth/libfprint 9999: Library to add support for consumer fingerprint readers
 www-client/yandex-browser-beta 24.1.1.939_rc1: The web browser from Yandex
