@@ -9,7 +9,7 @@ inherit meson python-single-r1
 
 DESCRIPTION="A 15-band equalizer for PulseAudio"
 HOMEPAGE="https://github.com/pulseaudio-equalizer-ladspa/equalizer"
-SRC_URI="https://github.com/pulseaudio-equalizer-ladspa/equalizer/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/pulseaudio-equalizer-ladspa/equalizer/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -23,12 +23,12 @@ RDEPEND="
 	x11-libs/gtk+:3
 	media-sound/pulseaudio
 	media-plugins/swh-plugins
-	sys-devel/bc
+	app-alternatives/bc
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	dev-util/ninja
-	>=dev-util/meson-0.46
+	app-alternatives/ninja
+	>=dev-build/meson-0.46
 "
 
 S="${WORKDIR}/equalizer-${PV}"
