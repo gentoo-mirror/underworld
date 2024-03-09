@@ -7,7 +7,6 @@ app-misc/gentoo-scripts:eclt - Enable eclt command
 app-misc/gentoo-scripts:enewyear - Enable enewyear command
 app-misc/gentoo-scripts:esync - Enable esync command
 app-misc/gentoo-scripts:eupd - Enable eupd command
-app-misc/gentoo-scripts:getbinpkg - Adds --getbinpkg flag to emerge command
 app-misc/gentoo-scripts:qorph - Enable qorph command
 app-misc/gentoo-scripts:qtop - Enable qtop command
 app-misc/gentoo-scripts:rcms - Enable rcms command
