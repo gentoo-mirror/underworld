@@ -1,16 +1,16 @@
 BDEPEND=app-alternatives/ninja >=dev-build/meson-0.46 >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
 DEFINED_PHASES=compile configure install setup test
-DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) dev-python/pygobject:3 x11-libs/gtk+:3 media-sound/pulseaudio media-plugins/swh-plugins app-alternatives/bc
+DEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) dev-python/pygobject:3 x11-libs/gtk+:3 media-sound/pulseaudio media-plugins/swh-plugins app-alternatives/bc
 DESCRIPTION=A 15-band equalizer for PulseAudio
 EAPI=7
 HOMEPAGE=https://github.com/pulseaudio-equalizer-ladspa/equalizer
 INHERIT=meson python-single-r1
-IUSE=python_single_target_python3_10 python_single_target_python3_11
+IUSE=+python_single_target_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) dev-python/pygobject:3 x11-libs/gtk+:3 media-sound/pulseaudio media-plugins/swh-plugins app-alternatives/bc
-REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
+RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) dev-python/pygobject:3 x11-libs/gtk+:3 media-sound/pulseaudio media-plugins/swh-plugins app-alternatives/bc
+REQUIRED_USE=^^ ( python_single_target_python3_11 )
 SLOT=0
 SRC_URI=https://github.com/pulseaudio-equalizer-ladspa/equalizer/archive/refs/tags/v3.0.2.tar.gz -> pulseaudio-equalizer-ladspa-3.0.2.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	974462533ec80cd68e5f366ad8a86002	meson	99466844dd8d4fcfb07578a76f5a9922	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	meson	99466844dd8d4fcfb07578a76f5a9922	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
 _md5_=31e5c2f63a177d61b2850776c08f0b88
