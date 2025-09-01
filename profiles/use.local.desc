@@ -2,6 +2,13 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/virtualbox:dtrace - Install dtrace Extension Pack.
+app-emulation/virtualbox:lvm - Build VBoxVolInfo that needs devicemapper from sys-fs/lvm2.
+app-emulation/virtualbox:sdk - Enable building of SDK.
+app-emulation/virtualbox:udev - Controls installation of special USB udev rules.
+app-emulation/virtualbox:vboxwebsrv - Build and install the VirtualBox webservice.
+app-emulation/virtualbox:vde - Support for VDE networking via net-misc/vde.
+app-emulation/virtualbox:vmmraw - Enable 32-bit support on a 64-bit kernel.
 app-misc/gentoo-scripts:auto-sudo - Run all commands with sudo automatically
 app-misc/gentoo-scripts:eclt - Enable eclt command
 app-misc/gentoo-scripts:enewyear - Enable enewyear command
